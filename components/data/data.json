@@ -1,0 +1,267 @@
+{
+  "common": {
+    "Header": {
+      "logo": "/logo/logo-n.webp",
+      "logo_alt": "SwiftLogistics — Logistics & Transportation",
+      "mail_label": "Send Us Mail",
+      "email": "info@xyz.com",
+      "email_href": "mailto:info@xyz.com",
+      "call_label": "Make A Call",
+      "phone": "+100000000000",
+      "phone_href": "tel:+100000000000",
+      "social_label": "Follow Us On:",
+      "socials": [
+        { "name": "Facebook", "href": "https://facebook.com", "icon": "facebook" },
+        { "name": "Instagram", "href": "https://instagram.com", "icon": "instagram" },
+        { "name": "X", "href": "https://x.com", "icon": "x" },
+        { "name": "LinkedIn", "href": "https://linkedin.com", "icon": "linkedin" }
+      ],
+      "links": [
+        { "name": "Home", "href": "#home" },
+        { "name": "About Us", "href": "#about" },
+        { "name": "Services", "href": "#services" },
+        { "name": "Why Choose Us", "href": "#partner" },
+        { "name": "Our Teams", "href": "#team" },
+        { "name": "How It Work", "href": "#process" },
+        { "name": "Testimonial", "href": "#stories" },
+        { "name": "Faqs", "href": "#faq" }
+      ],
+      "button_text": "Contact",
+      "button_href": "#contact",
+      "menu_label": "Open menu",
+      "close_label": "Close menu"
+    },
+    "Footer": {
+      "logo": "/logo/logo.webp",
+      "logo_alt": "SwiftLogistics — Logistics & Transportation",
+      "description": "A trusted logistics service provider delivering reliable, efficient and cost-effective transportation solutions across the globe.",
+      "call_label": "Make a Call",
+      "phone": "+100000000000",
+      "phone_href": "tel:+100000000000",
+      "link_mark": "→",
+      "links_title": "Quick Links",
+      "links": [
+        { "name": "Home", "href": "#home" },
+        { "name": "About Us", "href": "#about" },
+        { "name": "Services", "href": "#services" },
+        { "name": "Latest Project", "href": "#process" },
+        { "name": "Contact Us", "href": "#contact" }
+      ],
+      "contact_title": "Get In Touch",
+      "address": "123 Education Lane, New York, NY 10001",
+      "email": "info@xyz.com",
+      "email_href": "mailto:info@xyz.com",
+      "contact_phone": "+100000000000",
+      "contact_phone_href": "tel:+100000000000",
+      "copyright": "Copyright © 2026. All rights reserved. Powered by Lestow",
+      "socials": [
+        { "name": "Facebook", "href": "https://facebook.com", "icon": "facebook" },
+        { "name": "Instagram", "href": "https://instagram.com", "icon": "instagram" },
+        { "name": "X", "href": "https://x.com", "icon": "x" },
+        { "name": "LinkedIn", "href": "https://linkedin.com", "icon": "linkedin" }
+      ]
+    },
+    "BackToTop": { "aria_label": "Back to top" }
+  },
+  "categories": {
+    "Logistics": {
+      "templateComponents": {
+        "template-1": {
+          "pages": {
+            "home": {
+              "title": "Home",
+              "pageName": "Home",
+              "metadata": {
+                "title": "SwiftLogistics | Reliable Freight & Transportation",
+                "description": "Air, ocean and road logistics with warehousing, tracking and on-time delivery."
+              },
+              "components": [
+                { "key": "HeaderSection", "component": "Header" },
+                { "key": "HeroSection", "component": "Hero" },
+                { "key": "AboutSection", "component": "About" },
+                { "key": "ServicesSection", "component": "Services" },
+                { "key": "PartnerSection", "component": "Partner" },
+                { "key": "StatsSection", "component": "Stats" },
+                { "key": "TeamSection", "component": "Team" },
+                { "key": "ProcessSection", "component": "Process" },
+                { "key": "TestimonialsSection", "component": "Testimonials" },
+                { "key": "FaqSection", "component": "Faq" },
+                { "key": "ContactSection", "component": "Contact" },
+                { "key": "FooterSection", "component": "Footer" },
+                { "key": "BackToTopSection", "component": "BackToTop" }
+              ]
+            }
+          },
+          "sections": {
+            "hero": {
+              "id": "home",
+              "eyebrow": "Logistics & Transportation",
+              "title": "Reliable & Efficient",
+              "title_highlight": "Logistics Solutions",
+              "lead": "End-to-end transportation and supply chain services to move your business forward, across cities and global markets.",
+              "image": "/hero/banner.webp",
+              "image_alt": "Truck, cargo ship and plane at a port"
+            },
+            "about": {
+              "id": "about",
+              "eyebrow": "About Us",
+              "title": "Your Trusted Logistics &",
+              "title_accent": "Transportation Partner",
+              "text": "We provide end-to-end logistics and transportation solutions, helping businesses move goods safely, efficiently, and on time across domestic and global markets.",
+              "image": "/about/photo.webp",
+              "image_alt": "Truck, cargo ship and plane at sunset",
+              "badge_value": "10+",
+              "badge_label": "Years of Experience"
+            },
+            "services": {
+              "id": "services",
+              "eyebrow": "Our Services",
+              "title": "Comprehensive Logistics Solutions",
+              "lead": "End-to-end transportation and supply chain services tailored to your business needs.",
+              "items": [
+                { "icon": "ship", "title": "Sea Transport", "image": "/services/sea.webp", "image_alt": "Container ship at sea", "href": "#contact" },
+                { "icon": "truck", "title": "Road Flight", "image": "/services/road.webp", "image_alt": "Freight truck on the highway", "href": "#contact" },
+                { "icon": "plane", "title": "Skyline Express", "image": "/services/air.webp", "image_alt": "Cargo plane in flight", "href": "#contact" },
+                { "icon": "train", "title": "Railway Logistic", "image": "/services/rail.webp", "image_alt": "Freight train by containers", "href": "#contact" },
+                { "icon": "warehouse", "title": "Warehousing", "image": "/services/warehouse.webp", "image_alt": "Warehouse aisles and storage", "href": "#contact" },
+                { "icon": "package", "title": "Express Delivery", "image": "/services/delivery.webp", "image_alt": "Courier delivering a parcel", "href": "#contact" },
+                { "icon": "crane", "title": "Supply Chain", "image": "/services/chain.webp", "image_alt": "Container being handled at port", "href": "#contact" },
+                { "icon": "headset", "title": "Logistics Consulting", "image": "/services/consult.webp", "image_alt": "Consultant planning a shipment", "href": "#contact" }
+              ]
+            },
+            "partner": {
+              "id": "partner",
+              "eyebrow": "Why Choose Us",
+              "title": "Your Reliable Logistics",
+              "title_accent": "Partner for Seamless Delivery",
+              "text": "We combine industry expertise, advanced technology and a customer-first approach to deliver safe, fast and cost-effective logistics solutions.",
+              "image": "/why/worker.webp",
+              "image_alt": "Logistics specialist at a loading dock",
+              "ribbon": "Delivering Your Business Forward",
+              "points": [
+                { "icon": "truck", "title": "On-Time Delivery", "text": "Timely and reliable deliveries, always.", "color": "#16324f" },
+                { "icon": "shield", "title": "Safe & Secure", "text": "Complete safety for your valuable cargo.", "color": "#8d1d2c" },
+                { "icon": "boxes", "title": "Wide Network", "text": "Strong logistics network across domestic & global routes.", "color": "#1f6b4a" },
+                { "icon": "users", "title": "Expert Team", "text": "A skilled and experienced logistics workforce.", "color": "#1f6b4a" },
+                { "icon": "coins", "title": "Cost-Effective", "text": "Competitive pricing with maximum value.", "color": "#16324f" },
+                { "icon": "headset", "title": "24/7 Support", "text": "Round-the-clock assistance for a hassle-free experience.", "color": "#8d1d2c" }
+              ]
+            },
+            "stats": {
+              "id": "stats",
+              "image": "/stats/port.webp",
+              "image_alt": "Container port at sunset",
+              "items": [
+                { "icon": "package", "value": "1,250+", "label": "Shipments Delivered" },
+                { "icon": "users", "value": "500+", "label": "Happy Clients" },
+                { "icon": "globe", "value": "50+", "label": "Countries Served" },
+                { "icon": "trophy", "value": "10+", "label": "Years of Experience" }
+              ]
+            },
+            "team": {
+              "id": "team",
+              "eyebrow": "Our Team",
+              "title": "Meet Our Logistics",
+              "title_accent": "Experts",
+              "lead": "A dedicated team of logistics professionals committed to delivering excellence.",
+              "prev_label": "Previous",
+              "next_label": "Next",
+              "items": [
+                { "name": "John Smith", "role": "Operations Manager", "image": "/team/john.webp", "image_alt": "John Smith, Operations Manager" },
+                { "name": "Emily Johnson", "role": "Logistics Director", "image": "/team/emily.webp", "image_alt": "Emily Johnson, Logistics Director" },
+                { "name": "David Wilson", "role": "Supply Chain Head", "image": "/team/david.webp", "image_alt": "David Wilson, Supply Chain Head" }
+              ]
+            },
+            "process": {
+              "id": "process",
+              "eyebrow": "How It Works",
+              "title": "Our Simple Logistics",
+              "title_accent": "Process",
+              "steps": [
+                { "number": "01", "icon": "quote", "title": "Request a Quote", "text": "Share your shipment details and get a quick, competitive quote from our team." },
+                { "number": "02", "icon": "book", "title": "Book Your Shipment", "text": "Confirm your booking and we'll plan the best route for your delivery." },
+                { "number": "03", "icon": "track", "title": "Track Your Cargo", "text": "Stay informed with real-time tracking and regular updates at every stage." },
+                { "number": "04", "icon": "delivery", "title": "Safe Delivery", "text": "Your shipment is delivered on time, safely, and at the right destination." }
+              ]
+            },
+            "testimonials": {
+              "id": "stories",
+              "title": "What Our Clients",
+              "title_accent": "Say About Us",
+              "quote_mark": "“",
+              "prev_label": "Previous review",
+              "next_label": "Next review",
+              "items": [
+                {
+                  "image": "/stories/michael.webp",
+                  "image_alt": "Michael Carter at a loading dock",
+                  "quote": "Excellent logistics service! Our shipments always arrive on time and in perfect condition. The team is professional, responsive, and truly understands our business needs.",
+                  "name": "Michael Carter",
+                  "role": "Operations Head, Global Trade Ltd.",
+                  "stars": 5
+                },
+                {
+                  "image": "/stories/priya.webp",
+                  "image_alt": "Priya Shah",
+                  "quote": "Booking ocean freight used to take days. SwiftLogistics confirms the sailing the same afternoon and keeps our buyer updated until the container is gated in.",
+                  "name": "Priya Shah",
+                  "role": "Export Lead, Harbor Goods",
+                  "stars": 5
+                },
+                {
+                  "image": "/stories/daniel.webp",
+                  "image_alt": "Daniel Brooks",
+                  "quote": "Road deliveries into our stores stay on the promised window. When a truck is delayed, we hear about it before the store does.",
+                  "name": "Daniel Brooks",
+                  "role": "Supply Manager, Northline Retail",
+                  "stars": 4
+                },
+                {
+                  "image": "/stories/aisha.webp",
+                  "image_alt": "Aisha Rahman",
+                  "quote": "The desk answers after hours. That matters when a vessel cuts off and we still need the documents cleared.",
+                  "name": "Aisha Rahman",
+                  "role": "Logistics Coordinator, Atlas Imports",
+                  "stars": 5
+                }
+              ]
+            },
+            "faq": {
+              "id": "faq",
+              "eyebrow": "Faqs",
+              "title": "Frequently Asked",
+              "title_accent": "Questions",
+              "items": [
+                { "question": "What types of logistics services do you offer?", "answer": "We provide a complete range of logistics solutions, including domestic and international shipping, freight forwarding, warehousing, and last-mile delivery." },
+                { "question": "How can I track my shipment?", "answer": "Every booking gets a tracking number. You can follow each milestone, and your coordinator sends updates when the cargo moves." },
+                { "question": "Do you handle international shipments?", "answer": "Yes. We move freight across borders by air, ocean and road, and arrange the documents needed for customs." },
+                { "question": "What is the estimated delivery time?", "answer": "Transit time depends on the lane and mode. Standard routes are quoted with a delivery window before you book." },
+                { "question": "Can you provide customized logistics solutions for my business?", "answer": "Yes. Tell us the cargo, route and schedule, and we build a plan around your lanes instead of a fixed package." }
+              ]
+            },
+            "contact": {
+              "id": "contact",
+              "eyebrow": "Contact Us",
+              "title": "Get In Touch",
+              "title_accent": "With Us",
+              "lead": "Have a question, need a quote, or want to discuss your logistics needs? We're here to help!",
+              "image": "/contact/ship.webp",
+              "image_alt": "Container ship at sea",
+              "side_image": "/contact/trucks.webp",
+              "side_alt": "Freight trucks on the highway",
+              "form_title": "Send A Message",
+              "name_placeholder": "Your Name",
+              "email_placeholder": "Your Email",
+              "phone_placeholder": "Phone Number",
+              "service_placeholder": "Service Interested In",
+              "services": ["Sea Transport", "Road Flight", "Skyline Express", "Railway Logistic", "Warehousing", "Express Delivery"],
+              "message_placeholder": "Your Message",
+              "button_text": "Free Quote!",
+              "success_message": "Message received. We will reply from the shipments desk."
+            }
+          }
+        }
+      }
+    }
+  }
+}
