@@ -9,7 +9,7 @@ export default function Faq({ data }: { data: FaqSectionData }) {
 
   return (
     <section id={data.id} className="bg-white">
-      <div className="mx-auto max-w-4xl px-5 py-12 sm:py-16">
+      <div className="mx-auto max-w-4xl px-5 py-8 sm:py-16">
         <p className="flex items-center justify-center gap-3 text-sm font-bold uppercase tracking-[0.16em] text-[#8d1d2c]">
           <span className="h-[3px] w-8 bg-[#8d1d2c]" />
           <CircleHelp className="h-5 w-5" />

@@ -4,7 +4,7 @@ import type { AboutSectionData } from '../../types';
 export default function About({ data }: { data: AboutSectionData }) {
   return (
     <section id={data.id} className="bg-white">
-      <div className="mx-auto grid max-w-6xl items-center gap-10 px-5 py-12 sm:px-8 sm:py-16 lg:grid-cols-[0.86fr_1.14fr]">
+      <div className="mx-auto grid max-w-6xl items-center gap-6 px-5 py-8 lg:gap-10 sm:px-8 sm:py-16 lg:grid-cols-[0.86fr_1.14fr]">
         <img
           src={data.image}
           alt={data.image_alt}

@@ -7,7 +7,7 @@ export default function Process({ data }: { data: ProcessSectionData }) {
   return (
     <section id={data.id} className="relative overflow-hidden bg-white">
       <div className="pointer-events-none absolute inset-0 opacity-[0.35]" style={{ backgroundImage: 'radial-gradient(#d5dde8 1px, transparent 1px)', backgroundSize: '14px 14px' }} />
-      <div className="relative mx-auto max-w-6xl px-5 py-12 sm:px-8 sm:py-16">
+      <div className="relative mx-auto max-w-6xl px-5 py-8 sm:px-8 sm:py-16">
         <p className="hero-in flex items-center justify-center gap-2 text-sm font-bold uppercase tracking-[0.16em] text-[#16324f]">
           <span className="h-[3px] w-8 bg-[#8d1d2c]" />
           <span className="h-2 w-2 rounded-full bg-[#8d1d2c]" />

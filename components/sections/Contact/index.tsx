@@ -22,7 +22,7 @@ export default function Contact({ data }: { data: ContactSectionData }) {
 
   return (
     <section id={data.id} className="bg-white">
-      <div className="mx-auto max-w-6xl px-5 py-12 sm:px-8 sm:py-16">
+      <div className="mx-auto max-w-6xl px-5 py-8 sm:px-8 sm:py-16">
         <p className="flex items-center justify-center gap-3 text-sm font-bold uppercase tracking-[0.16em] text-[#16324f]">
           <span className="h-[3px] w-8 bg-[#8d1d2c]" />
           <Truck className="h-4 w-4 text-[#8d1d2c]" />
@@ -35,10 +35,10 @@ export default function Contact({ data }: { data: ContactSectionData }) {
         <p className="mx-auto mt-3 max-w-2xl text-center text-sm text-[#5c6b7a]">{data.lead}</p>
         <span className="mx-auto mt-3 block h-[3px] w-12 rounded-full bg-[#8d1d2c]" />
 
-        <div className="mt-12 grid items-center gap-8 lg:grid-cols-[1.05fr_0.95fr]">
-          <div className="relative pb-16 sm:pb-20">
-            <img src={data.image} alt={data.image_alt} className="aspect-[5/4] w-[84%] rounded-[28px] object-cover" />
-            <img src={data.side_image} alt={data.side_alt} className="absolute bottom-0 right-0 aspect-[4/3] w-[52%] rounded-[22px] border-[6px] border-white object-cover shadow-lg" />
+        <div className="mt-8 grid items-stretch gap-6 sm:mt-12 sm:gap-8 lg:grid-cols-[1.05fr_0.95fr]">
+          <div className="relative min-h-[260px] sm:min-h-[320px] lg:min-h-full">
+            <img src={data.image} alt={data.image_alt} className="h-full min-h-[260px] w-[78%] rounded-[28px] object-cover sm:min-h-[320px] lg:absolute lg:inset-y-0 lg:left-0 lg:min-h-0" />
+            <img src={data.side_image} alt={data.side_alt} className="absolute bottom-3 right-0 h-[42%] w-[46%] rounded-[22px] border-4 border-white object-cover shadow-lg sm:bottom-4" />
           </div>
 
           <form onSubmit={(event) => { event.preventDefault(); setSent(true); }} className="rounded-[28px] border border-[#8d1d2c]/40 p-5 sm:p-7">

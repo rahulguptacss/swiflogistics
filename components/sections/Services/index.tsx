@@ -15,7 +15,7 @@ const icons = {
 export default function Services({ data }: { data: ServicesSectionData }) {
   return (
     <section id={data.id} className="bg-[#f6f7fb]">
-      <div className="mx-auto max-w-6xl px-5 py-12 sm:px-8 sm:py-16">
+      <div className="mx-auto max-w-6xl px-5 py-8 sm:px-8 sm:py-16">
         <p className="hero-in flex items-center justify-center gap-3 text-sm font-semibold text-[#8d1d2c]">
           <span className="h-[2px] w-8 bg-[#8d1d2c] sm:w-12" />
           {data.eyebrow}

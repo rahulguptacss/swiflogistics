@@ -35,7 +35,7 @@ export default function Footer({ data }: { data: FooterData }) {
       <div className="pointer-events-none absolute inset-0 opacity-20" style={{ backgroundImage: 'radial-gradient(circle at 20% 40%, #7aa0c8 0 1px, transparent 1.6px), radial-gradient(circle at 70% 30%, #7aa0c8 0 1px, transparent 1.6px)', backgroundSize: '22px 22px' }} />
       <div className="relative mx-auto grid max-w-6xl gap-10 px-5 py-8 sm:py-10 lg:grid-cols-[1.1fr_0.9fr_1fr]">
         <div>
-          <img src={data.logo} alt={data.logo_alt} className="h-16 w-auto" />
+          <img src={data.logo} alt={data.logo_alt} className="h-10 w-auto sm:h-16" />
           <p className="mt-5 max-w-sm text-sm leading-relaxed text-white/80">{data.description}</p>
           <a href={data.phone_href} className="mt-6 inline-flex items-center gap-3">
             <span className="grid h-11 w-11 place-items-center rounded-md bg-[#8d1d2c]"><Phone className="h-5 w-5" /></span>
@@ -52,7 +52,7 @@ export default function Footer({ data }: { data: FooterData }) {
           <ul className="mt-5 grid gap-3 text-sm">
             {data.links.map((link) => (
               <li key={link.name}>
-                <a href={link.href} className="inline-flex items-center gap-2 text-white/85 transition hover:text-white">{data.link_mark} {link.name}</a>
+                <a href={link.href} className="inline-flex items-center gap-2 text-white transition hover:text-[#f97316]">{data.link_mark} {link.name}</a>
               </li>
             ))}
           </ul>
@@ -61,14 +61,14 @@ export default function Footer({ data }: { data: FooterData }) {
           <p className={heading} style={{ clipPath: 'polygon(0 0, calc(100% - 14px) 0, 100% 100%, 0 100%)' }}>
             {data.contact_title} <span aria-hidden>{data.link_mark}</span>
           </p>
-          <ul className="mt-5 grid gap-4 text-sm">
-            <li className="flex gap-3"><span className="grid h-9 w-9 shrink-0 place-items-center rounded-md bg-[#8d1d2c]"><MapPin className="h-4 w-4" /></span><span className="max-w-[220px] leading-relaxed">{data.address}</span></li>
-            <li className="flex items-center gap-3"><span className="grid h-9 w-9 shrink-0 place-items-center rounded-md bg-[#8d1d2c]"><Mail className="h-4 w-4" /></span><a href={data.email_href}>{data.email}</a></li>
-            <li className="flex items-center gap-3"><span className="grid h-9 w-9 shrink-0 place-items-center rounded-md bg-[#8d1d2c]"><Phone className="h-4 w-4" /></span><a href={data.contact_phone_href}>{data.contact_phone}</a></li>
+          <ul className="mt-5 grid gap-4 text-sm text-white">
+            <li className="flex gap-3"><span className="grid h-9 w-9 shrink-0 place-items-center rounded-md text-[#f97316]"><MapPin className="h-4 w-4" /></span><span className="max-w-[220px] leading-relaxed">{data.address}</span></li>
+            <li className="flex items-center gap-3"><span className="grid h-9 w-9 shrink-0 place-items-center rounded-md text-[#f97316]"><Mail className="h-4 w-4" /></span><a href={data.email_href} className="transition hover:text-[#f97316]">{data.email}</a></li>
+            <li className="flex items-center gap-3"><span className="grid h-9 w-9 shrink-0 place-items-center rounded-md text-[#f97316]"><Phone className="h-4 w-4" /></span><a href={data.contact_phone_href} className="transition hover:text-[#f97316]">{data.contact_phone}</a></li>
           </ul>
         </div>
       </div>
-      <div className="relative mx-auto flex max-w-6xl flex-col gap-4 border-t border-white/30 px-5 py-3 text-sm sm:flex-row sm:items-center sm:justify-between">
+      <div className="relative mx-auto flex max-w-6xl flex-col-reverse items-center gap-4 border-t border-white/30 px-5 py-3 text-center text-sm sm:flex-row sm:items-center sm:justify-between sm:text-left">
         <p>{data.copyright}</p>
         <Socials items={data.socials} />
       </div>

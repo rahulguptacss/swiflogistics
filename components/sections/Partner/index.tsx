@@ -13,7 +13,7 @@ const icons = {
 export default function Partner({ data }: { data: PartnerSectionData }) {
   return (
     <section id={data.id} className="bg-white">
-      <div className="mx-auto grid max-w-6xl items-center gap-10 px-5 pb-4 pt-12 sm:px-8 sm:pb-6 sm:pt-16 lg:grid-cols-[1.05fr_0.95fr]">
+      <div className="mx-auto grid max-w-6xl items-center gap-6 px-5 pb-2 pt-8 sm:gap-10 sm:px-8 sm:pb-6 sm:pt-16 lg:grid-cols-[1.05fr_0.95fr]">
         <div>
           <p className="hero-in flex items-center gap-3 text-xs font-bold uppercase tracking-[0.18em] text-[#16324f]">
             <span className="h-[3px] w-7 bg-[#8d1d2c]" />

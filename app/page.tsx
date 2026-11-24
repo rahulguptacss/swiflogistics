@@ -41,7 +41,7 @@ export default function Home() {
   return (
     <div className="flex min-h-screen flex-col bg-white text-ink">
       {pages.home.components.filter((block) => block.component === 'Header').map((block) => (
-        <div key={block.key}>{sectionMap[block.component]}</div>
+        <div key={block.key} className="sticky top-0 z-50">{sectionMap[block.component]}</div>
       ))}
       <main className="flex-1">
         {pages.home.components.filter((block) => !shell.has(block.component)).map((block) => (

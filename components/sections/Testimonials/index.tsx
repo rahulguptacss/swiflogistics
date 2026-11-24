@@ -18,7 +18,7 @@ export default function Testimonials({ data }: { data: TestimonialsSectionData }
 
   return (
     <section id={data.id} className="bg-white">
-      <div className="mx-auto max-w-6xl px-5 py-12 sm:px-8 sm:py-16">
+      <div className="mx-auto max-w-6xl px-5 py-8 sm:px-8 sm:py-16">
         <h2 className="text-center text-3xl font-extrabold text-[#16324f] sm:text-4xl">
           <span className="mb-3 flex items-center justify-center gap-2">
             <span className="h-[3px] w-8 bg-[#8d1d2c]" />
